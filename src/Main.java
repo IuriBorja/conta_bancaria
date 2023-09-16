@@ -6,14 +6,18 @@ public class Main {
 
         Scanner leitura = new Scanner(System.in);
 
+        String nome = "Iuri Borja";
+        String tipoConta = "Corrente";
+        double saldo = 2500;
+
         String menu = """
                 ****************************
                                 
                 Dados iniciais do cliente:
                                 
-                Nome: Jacqueline Oliveira
-                Tipo de conta: Corrente
-                Saldo inicial: € 2500
+                Nome:\s""" + nome + """
+                Tipo de conta:\s""" + tipoConta + """
+                Saldo inicial: €\s""" + saldo + """
                                 
                 ****************************
                                 
@@ -33,8 +37,6 @@ public class Main {
         double valorTransferir;
 
         String opcaoMenu = "";
-
-        double saldo = 2500;
 
         double total = saldo;
 
