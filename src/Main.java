@@ -71,7 +71,7 @@ public class Main {
 
                 }
                 case "4" -> System.out.println("Finalizando...");
-                default -> System.out.println("erro");
+                default -> System.out.println("Opção Inválida");
             }
 
 
